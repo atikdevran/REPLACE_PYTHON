@@ -10,7 +10,7 @@ lint:
 	pylint replace.py
 
 test: clitest
-	bash ./clitest --progress none README.md
+	bash ./clitest --progress none src
 
 clitest:
 	curl --location --remote-name --silent \
