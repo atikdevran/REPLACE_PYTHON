@@ -14,7 +14,7 @@ test: clitest
 
 clitest:
 	curl --location --remote-name --silent \
-	https://raw.githubusercontent.com/aureliojargas/clitest/master/clitest
+	https://raw.githubusercontent.com/atikdevran/clitest/main/clitest
 
 clean:
 	rm -f clitest
